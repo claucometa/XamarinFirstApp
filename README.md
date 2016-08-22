@@ -1,5 +1,4 @@
 # XamarinFirstApp
-XamarinFirstApp
 
 I did this model trhough the following tutorial:
 
