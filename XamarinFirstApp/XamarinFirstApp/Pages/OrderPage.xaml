@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFirstApp.Pages.OrderPage">
+  <Label Text="Order" VerticalOptions="Center" HorizontalOptions="Center" />
+
+  <ScrollView>
+
+    <StackLayout Padding="8">
+
+      <Label TextColor ="{StaticResource FontColor}" Text ="Titulo"></Label>
+      <Entry TextColor="{StaticResource FontColor}" BackgroundColor="White"></Entry>
+
+      <Label TextColor ="{StaticResource FontColor}" Text ="Description"></Label>
+      <Editor TextColor="{StaticResource FontColor}" BackgroundColor="White"></Editor>
+
+      <Label TextColor ="{StaticResource FontColor}" Text ="Fecha Entrega"></Label>
+      <DatePicker BackgroundColor="White"></DatePicker>
+
+      <Button
+        HeightRequest ="50"
+        WidthRequest="25"
+        BackgroundColor ="{StaticResource MainColor}"
+        TextColor="{StaticResource MenuFontColor}"
+        Text="Guardar"></Button>
+
+    </StackLayout>
+
+  </ScrollView>
+
+
+</ContentPage>
